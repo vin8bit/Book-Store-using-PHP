@@ -1,0 +1,66 @@
+.sidebar hr,h2{
+    margin: 20px;
+}
+.sidebar input{
+    width: 90%;
+    height: 40px;
+    display: block;
+    margin: 20px;
+
+}
+
+.sidebar #track{
+    border: 1px solid crimson;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.sidebar #track:hover{
+    background-color: white;
+    color: crimson;
+}
+
+h2{
+    color: crimson;
+    font-size: 15px;
+}
+
+.book-container h2 span{
+    font-size: 15px;
+    color: black;
+}
+
+.book-container h2 #tk{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+table {
+    width: 100%;	
+    margin-top: 20px;
+    border-collapse: collapse;
+    
+  }
+
+  th, td {
+    
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    height: 50px;
+    text-align: left;
+    background-color: crimson;
+    color: white;
+  }
+  
+  td {
+    height: 50px;
+    vertical-align: bottom;
+  }
+  tr:hover {background-color: #f5f5f5;}
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}

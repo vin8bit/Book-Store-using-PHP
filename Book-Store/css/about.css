@@ -1,0 +1,16 @@
+h2{
+    margin: 20px;
+    color: crimson;
+}
+hr{
+    margin: 20px;
+}
+h4{
+    margin: 20px;
+    color: gray;
+}
+
+.book-container img{
+    width: 900px;
+    height: 350px;
+}

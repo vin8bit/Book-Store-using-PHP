@@ -1,0 +1,163 @@
+.body-container .book-sidebar{
+  width: 25%;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  border: 2px dotted crimson;
+  border-radius: 20px;
+  
+}
+.body-container .book-container2{
+  width: 100%;
+  
+  
+}
+
+.book-container2 img, h2{
+  
+}
+
+.body-container .book-sidebar #category-filter{
+    width: 100%;
+    color: black;
+    font-size: 18px;
+    height: 40px;
+    border-radius: 10px;
+  
+}
+
+.body-container .book-sidebar #category-label{
+  float: left;
+  margin: 10px;
+  color:black;
+  font-size: 18px;
+  font-weight: bold;
+  
+
+}
+
+.book-container #category-title{
+    color: crimson;
+    display: block;
+    margin-bottom: 10px;
+}
+.book-container #line-title{
+  color: crimson;
+  border: 2px solid crimson;
+  margin-bottom: 10px;
+  
+}
+  .product_wrapper {
+    width: 198px;
+    display: inline-block;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(196, 194, 194);
+   
+      padding: 8px;
+      text-align: center;
+      }
+  .product_wrapper:hover {
+      box-shadow: 0 0 0 2px #e5e5e5;
+      cursor:pointer;
+      }
+
+.product_wrapper .image img{
+        box-sizing: border-box;
+        width: 100%;
+        height: 200px;
+}   
+  .product_wrapper .book-name {
+    font-weight:bold;
+    font-size: 15px;
+    color: black;
+    margin-top: 10px;
+      }
+.product_wrapper .book-price {
+        font-weight:bold;
+        font-size: 15px;
+        margin: 5px;
+        color: crimson;
+}      
+  .product_wrapper .buy {
+      text-transform: uppercase;
+      background: #4DBD33;
+      border: 1px solid #4DBD33;
+      border-radius: 5px;
+      cursor: pointer;
+      color: #fff;
+      padding: 5px 20px;
+      margin-top: 10px;
+  }
+
+  .product_wrapper .unavailable {
+    text-transform: uppercase;
+    background: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 20px;
+    margin-top: 10px;
+}
+  .product_wrapper .buy:hover {
+      background: skyblue;
+      border-color: skyblue;
+  }
+.price-filter h3{
+    float: left;
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 60px;
+  }
+.price-filter label{
+  float: left;
+  display: block;
+  margin: 10px;
+}
+.price-filter input{
+  float: left;
+  width: 100%;
+}
+
+.price-filter #minimum, #maximum{
+  color: orangered;
+}
+.book-sidebar #apply {
+  display: block; 
+  background-color: #4DBD33;
+  width: 90px;
+  height: 35px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 1 px solid #4DBD33;
+}
+.book-sidebar #apply:hover {
+  background-color: white;
+  color: green;
+}
+
+.book-sidebar #search-btn {
+  background-image: url('../icons/search.png');
+  box-sizing: border-box;
+  background-position: 10px 12px; 
+  background-repeat: no-repeat;
+  width: 100%; 
+  font-size: 16px; 
+  padding: 12px 20px 12px 40px;
+  color: gray;
+  border: 1px solid #ddd; 
+  margin-bottom: 40px; 
+
+
+}
+.book-sidebar #search-value {
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  
+}

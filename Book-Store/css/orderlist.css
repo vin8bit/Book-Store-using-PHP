@@ -1,0 +1,32 @@
+#print {
+    width: 200px;
+    margin: 20px;
+    height: 40px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+#status{
+    width: 90%;
+    margin-left: 20px;
+    height: 40px;
+
+}
+#back{
+    width: 90%;
+    background-color: orangered;
+    margin: 20px;
+    height: 40px;
+    color: white;
+  
+    border: 1px solid orangered;
+    border-radius: 10px;
+}
+
+#back:hover{
+    background-color: white;
+    color: orangered;
+}

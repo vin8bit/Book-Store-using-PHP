@@ -1,0 +1,107 @@
+.main-content .search-box{
+  display: flex;
+  box-sizing: border-box;
+}
+
+#myInput, #myInput2 , #myInput3 {
+  background-image: url('../icons/search.png');
+  box-sizing: border-box;
+  background-position: 10px 12px; 
+  background-repeat: no-repeat;
+  width: 300px; 
+  font-size: 16px; 
+  padding: 12px 20px 12px 40px;
+  color: gray;
+  border: 1px solid #ddd; 
+  margin-bottom: 12px; 
+  margin-right: 20px;
+}
+#myInput{
+  width: 150px;
+}
+
+
+table {
+    width: 100%;	
+    border-collapse: collapse;
+    
+  }
+
+  th, td {
+    
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    height: 50px;
+    text-align: left;
+    background-color: brown;
+    color: white;
+  }
+  
+  td {
+    height: 50px;
+    vertical-align: bottom;
+  }
+  tr:hover {background-color: #f5f5f5;}
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+  td, img {
+      width: 100px;
+      height: 150px;
+  }
+
+  table #code{
+    width: 130px;
+  }
+
+  table #name{
+    width: 300px;
+  }
+
+  table #price{
+    width: 40px;
+  }
+
+
+  table #quantity{
+    width: 40px;
+  }
+  table #category{
+    width: 300px;
+  }
+
+  table a{
+    text-decoration: none;
+  
+  }
+
+  table .edit{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 70px;
+    color: white;
+    border: 1px solid green;
+    background-color: green;
+  }
+
+  table .edit:hover{
+    color: green;
+    background-color: white;
+  }
+  table .delete{
+    text-align: center;
+    margin-bottom: 10px;
+    width: 70px;
+    padding: 10px;
+    color: white;
+    border: 1px solid red;
+    background-color: red;
+  }
+  table .delete:hover{
+    background-color: white;
+    color: red;
+  }

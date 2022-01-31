@@ -1,0 +1,94 @@
+.body-container{
+    width: 90%;
+   
+}
+.book-container{
+    width: 100%;
+   
+  
+}
+.sidbar{
+    background-color: white;
+}
+.book-container .details-container{
+ 
+    width: 100%;
+    border: 2px solid crimson;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.book-container .details-container .container1{
+
+  display: flex;
+
+}
+.book-container .details-container #img{
+    width: 200px;
+    height: 300px;
+  
+}
+.book-container h1{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    color: gray;
+}
+.book-container hr{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: gray;
+    border: 2px solid gray;
+}
+
+
+.book-container .details-container .details{
+   padding: 20px;
+}
+.book-container .details-container  #qntl{
+    margin-top: 40px;
+} 
+
+.book-container .details-container  #qnt , #add-cart{
+    margin: 10px;
+    width: 130px;
+    height: 40px;;
+   
+ }
+ .book-container .details-container  #add-cart{
+    border-radius: 8px;
+    font-weight: bold;
+    border: 1px solid crimson;
+    background-color: crimson;
+    color: white;
+
+}
+.book-container .details-container  #add-cart:hover{
+    background-color: white;
+    color: crimson;
+}
+.book-container .details-container .details #qntspan{
+    color: red;
+    font-size: 18px;
+}
+.book-container .details-container .details label{
+    display: block;
+    color: brown;
+    margin: 20px;
+    font-size: 20px;
+}
+.book-container .details-container .details label span{
+    color: black;
+    font-size: 18px;
+}
+
+.book-container .details-container .container2 h3{
+    color: crimson;
+    margin-top: 20px;
+  
+  }
+
+  .book-container .details-container .container2 p{
+    color: gray;
+    margin-top: 20px;
+  
+  }  

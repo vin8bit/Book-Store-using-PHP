@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    background-color: brown;
+}
+
+.container .side-menus{
+    width: 30%;
+    height: 700px;
+    padding: 20px;
+    background-color: brown;
+}
+.container .side-menus img{
+    width: 100%;
+    height: 170px;
+}
+.container .main{
+    width: 70%;
+    padding: 20px;
+   
+}
+
+.container .main .title{
+    display: flex;
+    width: 100%;
+    height: 100px;;
+    padding: 10px 0px 0px 10px;
+    background-color: crimson;
+}
+
+.container .main .title h1{
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    color: brown;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.container .main .title h2{
+    text-transform: uppercase;
+    margin: 20px 20px 0 20px;
+    color: white;
+}
+
+.container .main .main-content{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+}
+
+.container .main .main-content h4 , hr{
+    color:red;
+}
+
+
+
+.container .side-menus ul {
+    text-decoration: none;
+}
+.container .side-menus a{
+    text-decoration: none;
+}
+.container .side-menus .menus li{
+    width: 100%;
+    display: block;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin-top: 10px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: crimson;
+   
+}
+
+.container .side-menus .menus li:hover{
+    background-color: white;
+    color: crimson;
+}
+
+
+
+.container .main .main-content #details-form{
+    margin-top: 20px;
+}
+
+.container .main .main-content #details-form label, input{
+    display: block;
+    font-size: 20px;
+    color: green;
+}
+
+.container .main .main-content #details-form label span{
+    font-size: 15px;
+    color: red;
+}
+
+
+.container .main .main-content #details-form input , #category{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    color: black;
+    font-size: 18px;
+    height: 40px;
+
+}
+
+.container .main .main-content #details-form #submit{
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    background-color: crimson;
+    border-radius: 10px;
+
+}
+
+.container .main .main-content #details-form #submit:hover{
+    color: crimson;
+    background-color: white;
+}
+
+.container .main .main-content #details-form  #reset{
+    margin-top: 20px;
+    width: 100%;
+    color: crimson;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
